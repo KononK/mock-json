@@ -1,0 +1,54 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Post 1"
+        },
+        {
+            "id": 2,
+            "title": "Post 2"
+        },
+        {
+            "id": 3,
+            "title": "Post 3"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        },
+        {
+            "id": 2,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    },
+    "auth": {
+        "login": {
+            "token": "12345",
+            "refresh-token": "54321"
+        },
+        "forgot-password": {
+            "status": true
+        },
+        "otp": {
+            "token": "12345"
+        },
+        "change-password": {
+            "status": true
+        },
+        "profile": {
+            "id": 1,
+            "email": "script.kiddie.1988@gmail.com",
+            "avatar": "https://ionicframework.com/docs/img/demos/avatar.svg"
+        },
+        "register": {
+            "status": true
+        }
+    }
+}
